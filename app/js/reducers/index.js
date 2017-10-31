@@ -7,4 +7,4 @@ const todoApp = combineReducers({
 	visibilityFilter
 })
 
-export default createStore(todoApp);
+export default createStore(todoApp, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
